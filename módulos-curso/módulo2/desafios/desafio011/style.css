@@ -1,0 +1,9 @@
+body {
+    background-image: url(imagens/espaco.jpg);
+    background-size: cover;
+}
+
+main {
+    margin: auto;
+    align-items: center;
+}
