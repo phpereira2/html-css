@@ -1,0 +1,25 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+#container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background: black url("../imagens/espaco.jpg") center center no-repeat fixed;
+    background-size: cover;
+}
+
+#conteudo {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background: transparent url("../imagens/astronauta.png") center center no-repeat fixed;
+    background-size: contain;
+
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+}
