@@ -1,9 +1,7 @@
-body {
-    background-image: url(imagens/espaco.jpg);
-    background-size: cover;
+main {
+    background-color: black;
 }
 
-main {
-    margin: auto;
-    align-items: center;
+article {
+    background-image: url("imagens/astronauta.png");
 }
