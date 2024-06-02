@@ -13,20 +13,39 @@
         <h1>Aprendizado em programação</h1>
         <form action="../php/cadastro.php" method="post" autocomplete="on">
             <fieldset>
+                <legend>Sexo</legend>
+                <p>
+                    <input type="radio" name="sexo" id="fem" value="F" checked>
+                    <label for="">Feminino</label>
+                </p>
+                <p>
+                    <input type="radio" name="sexo" id="mas" value="M">
+                    <label for="">Masculino</label>
+                </p>
+            </fieldset>
+            <fieldset>
                 <legend>Linguagens que aprendi</legend>
                 <p>
-                    <label for=""></label>
-                    <input type="checkbox" name="" id="">
+                    <input type="checkbox" name="bas" id="ibas">
+                    <label for="ibas">Basquete</label>
                 </p>
                 <p>
-                    <label for=""></label>
-                    <input type="radio" name="" id="">
+                    <input type="checkbox" name="fut" id="ifut">
+                    <label for="ifut">Futebol</label>
                 </p>
-                <div class="botoes">
-                    <input type="submit" value="Enviar">
-                    <input type="reset" value="Apagar">
-                </div>
+                <p>
+                    <input type="checkbox" name="nat" id="inat" checked>
+                    <label for="inat">Natação</label>
+                </p>
+                <p>
+                    <input type="checkbox" name="ten" id="iten" checked>
+                    <label for="iten">Tênis</label>
+                </p>
             </fieldset>
+            <div class="botoes">
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Apagar">
+            </div>
         </form>
     </main>
 </body>
