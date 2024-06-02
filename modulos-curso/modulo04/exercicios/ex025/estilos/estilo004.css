@@ -1,0 +1,90 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #CB9CF2;
+}
+
+main {
+    width: 600px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    color: black;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px 3px rgba(0, 0, 0, 0.187);
+}
+
+form {
+    width: 500px;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h1 {
+    width: 350px;
+    height: 40px;
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 30px;
+}
+
+fieldset {
+    width: 400px;
+    height: 300px;
+    border: 1px solid black;
+    padding: 20px;
+}
+
+p {
+    width: 310px;
+    height: 35px;
+    text-align: center;
+    margin: 20px;
+}
+
+label {
+    width: 50px;
+    height: 30px;
+}
+
+input {
+    display: inline-block;
+    width: 150px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 7px;
+    text-align: center;
+    padding: 5px;
+}
+
+.botoes {
+    width: 400px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.botoes > input {
+    margin: 0px 10px 0px 10px;
+}
