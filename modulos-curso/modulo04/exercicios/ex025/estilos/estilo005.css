@@ -31,6 +31,11 @@ main {
     box-shadow: 2px 2px 5px 3px rgba(0, 0, 0, 0.196);
 }
 
+form {
+    width: 400px;
+    height: 250px;
+}
+
 h1 {
     font-size: 2em;
     text-align: center;
@@ -41,14 +46,39 @@ fieldset {
     border: 1px solid black;
     padding: 10px;
     border-radius: 10px;
+    margin-bottom: 20px;
+    columns: 2;
+}
+
+legend {
+    font-size: 1em;
+    text-align: center;
+}
+
+p {
+    width: 180px;
+    height: 25px;
+    text-align: center;
 }
 
 label {
-    
+    display: inline-block;
+    width: 80px;
+    height: 30px;
 }
 
 input {
     border: 1px solid black;
     padding: 10px;
     border-radius: 10px;
+}
+
+.botoes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.botoes input {
+    margin: 0px 20px 0px 20px;
 }
