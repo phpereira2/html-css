@@ -29,3 +29,53 @@ main {
     border-radius: 20px;
     box-shadow: 2px 2px 5px 5px rgba(0, 0, 0, 0.201);
 }
+
+form {
+    width: 450px;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+fieldset {
+    width: 450px;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid black;
+    padding: 15px;
+}
+
+legend {
+    font-size: 1.5em;
+    text-align: center;
+}
+
+p {
+    width: 450px;
+    height: 30px;
+    margin-bottom: 15px;
+    margin: 15px 0px 15px 0px;
+}
+
+input {
+    margin-left: 10px;
+}
+
+.botoes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.botoes input {
+    margin: 0px 20px 0px 20px;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 10px;
+}
