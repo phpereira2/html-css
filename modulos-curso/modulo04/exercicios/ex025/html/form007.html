@@ -12,9 +12,27 @@
     <main>
         <form action="../php/cadastro.php" method="post" autocomplete="on">
             <fieldset>
-                <legend>Linguagens que aprendi/pretendo aprender</legend>
+                <legend>Metas futuras</legend>
                 <p>
-
+                    <label for="icursos">Cursos que gostaria de aprender:</label>
+                    <select name="cursos" id="icursos">
+                        <option value="" selected class="choose"> --- Escolha --- </option>
+                        <optgroup label="Programação">
+                            <option value="JS">JavaScript</option>
+                            <option value="PHP">Hypertext Preprocessor</option>
+                            <option value="PY">Python</option>
+                        </optgroup>
+                        <optgroup label="Hardware">
+                            <option value="RC">Redes de Computadores</option>
+                            <option value="AC">Arquitetura de Computadores</option>
+                            <option value="SI">Segurança da Informação</option>
+                        </optgroup>
+                        <optgroup label="Web Designer">
+                            <option value="HC">HTML e CSS</option>
+                            <option value="WP">WordPress</option>
+                            <option value="PS">Photoshop</option>
+                        </optgroup>
+                    </select>
                 </p>
             </fieldset>
             <div class="botoes">
