@@ -33,7 +33,7 @@ main {
 
 form {
     width: 630px;
-    height: 430px;
+    height: 440px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -42,13 +42,18 @@ form {
 
 fieldset {
     width: 630px;
-    height: 370px;
+    height: 380px;
     border: 1px solid black;
+    padding: 25px;
 }
 
 legend {
     font-size: 1.5em;
     text-align: center;
+}
+
+p {
+    margin: 20px 0px 20px 0px;
 }
 
 input {
@@ -63,8 +68,11 @@ select, .choose {
 }
 
 textarea {
+    width: 580px;
+    height: 160px;
     border: 1px solid black;
     border-radius: 7px;
+    margin-top: 15px;
 }
 
 .botoes {
@@ -74,6 +82,7 @@ textarea {
     align-items: center;
     justify-content: center;
     flex-direction: row;
+    margin-top: 15px;
 }
 
 .botoes input {
