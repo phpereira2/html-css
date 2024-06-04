@@ -19,7 +19,7 @@
                         <option value="" selected class="choose"> --- Escolha --- </option>
                         <optgroup label="Programação">
                             <option value="JS">JavaScript</option>
-                            <option value="PHP">Hypertext Preprocessor</option>
+                            <option value="PHP">PHP</option>
                             <option value="PY">Python</option>
                         </optgroup>
                         <optgroup label="Hardware">
@@ -33,6 +33,22 @@
                             <option value="PS">Photoshop</option>
                         </optgroup>
                     </select>
+                </p>
+                <p>
+                    <label for="iarea">Área de atuação</label>
+                    <input type="text" name="area" id="iarea" list="list-job">
+                    <datalist id="list-job">
+                            <option>Analista de dados</option>
+                            <option>Desenvolvedor de Softwares</option>
+                            <option>Técnico de Informática</option>
+                            <option>Desenvolvedor Web</option>
+                            <option>Arquitetura de redes</option>
+                            <option>Engenharia de QA</option>
+                    </datalist>
+                </p>
+                <p>
+                    <label for="imsg">O que preciso fazer para chegar lá</label><br>
+                    <textarea name="msg" id="imsg" cols="30" rows="10"></textarea>
                 </p>
             </fieldset>
             <div class="botoes">

@@ -51,6 +51,22 @@ legend {
     text-align: center;
 }
 
+input {
+    border: 1px solid black;
+    border-radius: 7px;
+}
+
+select, .choose {
+    border: 1px solid black;
+    border-radius: 7px;
+    text-align: center;
+}
+
+textarea {
+    border: 1px solid black;
+    border-radius: 7px;
+}
+
 .botoes {
     width: 630px;
     height: 60px;
