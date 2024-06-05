@@ -5,22 +5,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulário</title>
+    <link rel="stylesheet" href="../estilos/estilo010.css">
 </head>
 
 <body>
     <main>
         <form action="../php/cadastro.php" method="post" autocomplete="on">
-            <fieldset>
-                <legend></legend>
-                <p>
-
-                </p>
-            </fieldset>
+            <h1>Calculadora de idade</h1>
+            <div class="input">
+                <label for="iano">Ano em que nasceu:</label>
+                <input type="number" name="ano" id="iano" min="1950" max="2024" minlength="4" maxlength="4" step="1.0" required oninput="calcIdade()">
+            </div>
+            <div class="output">
+                <label for="iidade">Sua idade é:</label>
+                <output name="idade" id="iidade">0</output>
+            </div>
             <div class="botoes">
                 <input type="submit" value="Enviar">
                 <input type="reset" value="Apagar">
             </div>
         </form>
+
+        <script>
+            function calcIdade() {
+                let atual = new Date().getFullYear()
+                iidade.innerHTML = Number(atual) - Number(iano.value)
+            }
+        </script>
     </main>
 </body>
 
