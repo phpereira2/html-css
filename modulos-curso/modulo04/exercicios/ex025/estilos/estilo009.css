@@ -31,3 +31,59 @@ main {
     border-radius: 15px;
     box-shadow: 2px 2px 5px 5px rgba(0, 0, 0, 0.185);
 }
+
+form {
+    width: 560px;
+    height: 360px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+fieldset {
+    width: 520px;
+    height: 260px;
+    border: 1px solid black;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+legend {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.inputs {
+    width: 250px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.inputs > label, input, output {
+    margin: 0px 5px 0px 5px;
+}
+
+.botoes {
+    width: 520px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 15px;
+}
+
+.botoes input {
+    width: 100px;
+    height: 30px;
+    margin: 0px 20px 0px 20px;
+    border: 1px solid black;
+    border-radius: 7px;
+    padding: 5px;
+}

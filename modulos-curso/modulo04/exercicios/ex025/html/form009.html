@@ -11,16 +11,18 @@
 <body>
     <main>
         <form action="../php/cadastro.php" method="post" autocomplete="on">
-            <fieldset>
-                <legend></legend>
-                <p>
-
-                </p>
+                <fieldset>
+                    <legend>Escala numeral</legend>
+                    <div class="inputs">
+                        <label for="inum">Números:</label>
+                        <input type="range" name="num" id="inum" required min="1" max="10" minlength="1" maxlength="2" step="1.0" onclick="ival.innerHTML = Number(inum.value)">
+                        <output name="val" id="ival">5</output>
+                    </div>
+                </fieldset>
                 <div class="botoes">
                     <input type="submit" value="Enviar">
                     <input type="reset" value="Apagar">
                 </div>
-            </fieldset>
         </form>
     </main>
 </body>
