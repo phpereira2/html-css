@@ -1,2 +1,62 @@
 @charset "UTF-8";
 
+@media only screen and (min-width: 768px) {
+
+    body {
+        background-image: url(../imagens/back-tablet.jpg);
+    }
+
+    #phone { display: none; }
+    #tablet { display: block; }
+    #print { display: none; }
+    #desktop { display: none; }
+    #tv { display: none; }
+}
+
+@media only screen and (min-width: 992px) {
+
+    body {
+        background-image: url(../imagens/back-pc.jpg);
+    }
+
+    #phone { display: none; }
+    #tablet { display: none; }
+    #print { display: none; }
+    #desktop { display: block; }
+    #tv { display: none; }
+}
+
+@media only screen and (min-width: 1200px) {
+
+    body {
+        background-image: url(../imagens/back-tv.jpg);
+    }
+
+    #phone { display: none; }
+    #tablet { display: none; }
+    #print { display: none; }
+    #desktop { display: none; }
+    #tv { display: block; }
+}
+
+@media print {
+
+    main {
+        border: 1px solid black;
+        width: 90vw;
+    }
+
+    main h1 {
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    main::after {
+        content: "Esta impressão foi desenvolvida por Pedro H. Pereira";
+    }
+
+    #phone { display: none; }
+    #tablet { display: none; }
+    #print { display: block; }
+    #desktop { display: none; }
+    #tv { display: none; }
+}
