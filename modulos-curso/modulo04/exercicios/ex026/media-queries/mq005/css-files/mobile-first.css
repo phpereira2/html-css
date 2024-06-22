@@ -68,17 +68,38 @@ main {
     padding: 20px;
     border-radius: 15px;
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 article > h2 {
     text-align: center;
     font-size: 1.5em;
-    margin-bottom: 20px;
 }
 
 article > p {
     text-indent: 20px;
     text-align: justify;
-    margin-bottom: 20px;
+    margin-top: 20px;
     line-height: 1.3em;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 0.8em;
+    padding: 10px;
+}
+
+footer a {
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: gray;
 }
