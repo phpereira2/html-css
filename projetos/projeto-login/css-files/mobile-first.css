@@ -11,4 +11,36 @@
 body {
     width: 100%;
     height: 100vh;
+    background-color: #5f2c82;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#login {
+    width: 250px;
+    height: 500px;
+    background-color: white;
+    color: black;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px 4px rgba(0, 0, 0, 0.316);
+    overflow: hidden;
+}
+
+#imagem {
+    display: block;
+    background: #5f2c82 url(../imagens/back.jpg) no-repeat center center;
+    background-size: cover;
+    height: 200px;
+}
+
+#formulario {
+    display: block;
+    padding: 15px;
 }
