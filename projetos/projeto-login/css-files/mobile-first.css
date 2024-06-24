@@ -26,11 +26,15 @@ main {
 #login {
     width: 250px;
     height: 500px;
+    
     background-color: white;
     color: black;
     border-radius: 15px;
     box-shadow: 0px 0px 10px 4px rgba(0, 0, 0, 0.316);
     overflow: hidden;
+
+    transition: width .3s, height .3s;
+    transition-timing-function: ease;
 }
 
 #imagem {
