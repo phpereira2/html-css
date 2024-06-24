@@ -21,4 +21,12 @@
         width: 70%;
         height: 100%;
     }
+
+    #formulario h1 {
+        font-size: 1.7em;
+    }
+
+    #formulario p {
+        font-size: 0.9em;
+    }
 }

@@ -48,3 +48,23 @@ main {
     display: block;
     padding: 15px;
 }
+
+#formulario h1 {
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 15px;
+}
+
+#formulario p {
+    font-size: 0.9em;
+}
+
+.botoes a {
+    color: black;
+    text-decoration: none;
+}
+
+.botoes a:hover {
+    color: darkgrey;
+    text-decoration: underline;
+}
