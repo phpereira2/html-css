@@ -52,11 +52,12 @@ main {
 #formulario h1 {
     text-align: center;
     font-size: 1.5em;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 
 #formulario p {
     font-size: 0.9em;
+    margin-bottom: 10px;
 }
 
 .campo {
@@ -69,20 +70,25 @@ main {
     margin-top: 5px;
 }
 
+.campo label {
+    width: 10%;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.campo .material-symbols-outlined {
+    width: 100%;
+    height: 100%;
+}
+
 .campo input {
-    width: 70%;
+    width: 90%;
     border: 1px solid black;
     border-radius: 5px;
     padding: 5px;
     text-align: center;
-}
-
-.campo label {
-    width: 20%;
-}
-
-.campo .material-symbols-outlined {
-    width: 10%;
 }
 
 .botoes > input[type=submit] {
@@ -98,13 +104,15 @@ main {
 }
 
 .botoes > input[type=submit]:hover {
-    background-color: white;
-    color: black;
-    border: 1px solid black;
+    background-color: black;
+    color: white;
 }
 
 .botoes a {
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
     width: 100%;
     height: 40px;
     border: 1px solid black;
@@ -119,5 +127,8 @@ main {
 .botoes a:hover {
     background-color: black;
     color: white;
-    text-decoration: underline;
+}
+
+.botoes .material-symbols-outlined {
+    margin-left: 10px;
 }
