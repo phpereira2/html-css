@@ -3,7 +3,8 @@
 .container {
     background-color: lightsalmon;
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: row nowrap;
+    align-items: flex-start;
     height: 400px;
 }
 
@@ -15,29 +16,29 @@
 }
 
 #i1 {
-    order: 0;
+    align-self: auto;
 }
 
 #i2 {
-    order: -2;
+    align-self: auto;
 }
 
 #i3 {
-    order: 4;
+    align-self: flex-end;
 }
 
 #i4 {
-    order: 8;
+    align-self: flex-start;
 }
 
 #i5 {
-    order: 2;
+    align-self: center;
 }
 
 #i6 {
-    order: 0;
+    align-items: flex-start;
 }
 
 #i7 {
-    order: -4;
+    align-self: stretch;
 }
