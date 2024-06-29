@@ -54,9 +54,18 @@ header nav a:hover {
 
 main {
     background-color: white;
-    margin: 10px;
+    margin: 10px auto;
     padding: 10px;
     border-radius: 10px;
     box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.297);
 }
 
+main h2 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+main p {
+    text-indent: 20px;
+    margin-bottom: 10px;
+}
